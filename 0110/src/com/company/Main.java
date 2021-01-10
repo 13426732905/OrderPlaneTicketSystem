@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
         student s=new student();
         s.setId(2018108106);
         s.setStuname("黄启峰");

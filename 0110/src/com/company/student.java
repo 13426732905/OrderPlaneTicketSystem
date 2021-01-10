@@ -6,6 +6,7 @@ public class student extends User{
      private String stuname;
      private  String phone;
      private  String address;
+
     public String getStuname() {
         return stuname;
     }
