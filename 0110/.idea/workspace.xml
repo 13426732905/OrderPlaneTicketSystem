@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bb294c1-babe-4281-97f0-d6805fedd370" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\qin\0110\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mroIhrgGFvoRuuryDGYpnXsFgD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="0110" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bb294c1-babe-4281-97f0-d6805fedd370" name="Default Changelist" comment="" />
+      <created>1610260992278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610260992278</updated>
+      <workItem from="1610260997869" duration="3709000" />
+    </task>
+    <task id="LOCAL-00001" summary="封装和继承">
+      <created>1610263605632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610263605632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="封装和继承">
+      <created>1610263756931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610263756931</updated>
+    </task>
+    <task id="LOCAL-00003" summary="封装和继承">
+      <created>1610265677714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610265677714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="封装和继承" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装和继承" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1610265262613">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1610265262613" />
+    <state x="400" y="23" key="CommitChangelistDialog2" timestamp="1610265676482">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="400" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610265676482" />
+    <state x="580" y="170" key="FileChooserDialogImpl" timestamp="1610266081558">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="170" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610266081558" />
+    <state x="621" y="342" width="382" height="175" key="Github.CreateGistDialog" timestamp="1610265887996">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="621" y="342" width="382" height="175" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1610265887996" />
+    <state x="675" y="320" width="273" height="289" key="Github.ShareDialog" timestamp="1610263878011">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="675" y="320" width="273" height="289" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1610263878011" />
+    <state width="1557" height="276" key="GridCell.Tab.0.bottom" timestamp="1610265528520">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610265528520" />
+    <state width="1557" height="276" key="GridCell.Tab.0.center" timestamp="1610265528520">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610265528520" />
+    <state width="1557" height="276" key="GridCell.Tab.0.left" timestamp="1610265528520">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610265528520" />
+    <state width="1557" height="276" key="GridCell.Tab.0.right" timestamp="1610265528520">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610265528520" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1610265528407">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610265528407" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1610265528407">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1610265528407" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1610265528407">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1610265528407" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1610265528407">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1610265528407" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1610265815442">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610265815442" />
+  </component>
+</project>
