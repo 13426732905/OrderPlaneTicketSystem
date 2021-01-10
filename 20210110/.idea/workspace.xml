@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="414a8050-0522-4ab6-baec-fdba58e7ae58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210110.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/20210110/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/20210110/com/company/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/20210110/com/company/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/0110.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/out/production/0110/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/out/production/0110/com/company/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/out/production/0110/com/company/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/out/production/0110/com/company/student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/src/com/company/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/src/com/company/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0110/src/com/company/student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +36,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
@@ -109,41 +79,65 @@
       <option name="presentableId" value="Default" />
       <updated>1610279687571</updated>
       <workItem from="1610279690485" duration="918000" />
-      <workItem from="1610281975353" duration="1577000" />
+      <workItem from="1610281975353" duration="1721000" />
     </task>
+    <task id="LOCAL-00001" summary="git和IDEA的使用">
+      <created>1610283585838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610283585838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git和IDEA的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="git和IDEA的使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="799" y="93" key="#com.intellij.ide.util.MemberChooser" timestamp="1610282675208">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="799" y="93" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1610282675208" />
+    <state x="400" y="23" key="CommitChangelistDialog2" timestamp="1610283583627">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="400" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610283583627" />
     <state x="670" y="320" width="493" height="272" key="Github.ShareDialog" timestamp="1610283527952">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="670" y="320" width="493" height="272" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1610283527952" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1610283094644">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1610283697226">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610283094644" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1610283094644">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610283697226" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1610283697225">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610283094644" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1610283094643">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610283697225" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1610283697225">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610283094643" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1610283094644">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610283697225" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1610283697225">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610283094644" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610283697225" />
     <state x="301" y="71" key="SettingsEditor" timestamp="1610282789351">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="71" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610282789351" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1610283666567">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610283666567" />
+    <state x="480" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1610284053704">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610284053704" />
   </component>
 </project>
