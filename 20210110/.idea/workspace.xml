@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="414a8050-0522-4ab6-baec-fdba58e7ae58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20210110.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/20210110/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/20210110/com/company/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/20210110/com/company/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/0110.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/out/production/0110/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/out/production/0110/com/company/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/out/production/0110/com/company/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/out/production/0110/com/company/student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/src/com/company/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/src/com/company/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0110/src/com/company/student.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\qin\20210110\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1msQC3UUyjUkAYaAFQOJwcT3bQZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="20210110" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="414a8050-0522-4ab6-baec-fdba58e7ae58" name="Default Changelist" comment="" />
+      <created>1610279687571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610279687571</updated>
+      <workItem from="1610279690485" duration="918000" />
+      <workItem from="1610281975353" duration="1577000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="799" y="93" key="#com.intellij.ide.util.MemberChooser" timestamp="1610282675208">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="799" y="93" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1610282675208" />
+    <state x="670" y="320" width="493" height="272" key="Github.ShareDialog" timestamp="1610283527952">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="670" y="320" width="493" height="272" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1610283527952" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1610283094644">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610283094644" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1610283094644">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610283094644" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1610283094643">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610283094643" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1610283094644">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610283094644" />
+    <state x="301" y="71" key="SettingsEditor" timestamp="1610282789351">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="71" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610282789351" />
+  </component>
+</project>
