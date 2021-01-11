@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfe8139f-90bd-4223-a73b-9ba924c96fcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Customer.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\qin\OrderPlaneTicketSystem\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mugdsbLsvfNe0ssEMJvkFXMYPk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="OrderPlaneTicketSystem" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfe8139f-90bd-4223-a73b-9ba924c96fcb" name="Default Changelist" comment="" />
+      <created>1610348980929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610348980929</updated>
+      <workItem from="1610348982167" duration="1061000" />
+      <workItem from="1610351801998" duration="63000" />
+      <workItem from="1610351898933" duration="114000" />
+    </task>
+    <task id="LOCAL-00001" summary="飞机订票系统">
+      <created>1610349016494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610349016494</updated>
+    </task>
+    <task id="LOCAL-00002" summary="乘客类">
+      <created>1610349242488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610349242488</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="飞机订票系统" />
+    <MESSAGE value="乘客类" />
+    <option name="LAST_COMMIT_MESSAGE" value="乘客类" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1610349167489">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1610349167489" />
+    <state x="400" y="4" key="CommitChangelistDialog2" timestamp="1610349241204">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="400" y="4" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610349241204" />
+    <state x="301" y="53" key="SettingsEditor" timestamp="1610349210685">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="53" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610349210685" />
+    <state x="392" y="144" key="Vcs.Push.Dialog.v2" timestamp="1610349262402">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="144" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610349262402" />
+    <state x="480" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1610351899146">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="235" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610351899146" />
+    <state x="174" y="21" key="new project wizard" timestamp="1610352007955">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="174" y="21" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1610352007955" />
+  </component>
+</project>

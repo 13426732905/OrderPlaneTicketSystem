@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="497a8803-3fa7-4646-b1d7-44fa90d51ddb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../OrderPlaneTicketSystem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OrderPlaneTicketSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderPlaneTicketSystem/src/com/company/Customer.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\qin\Order\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mummYK8xmBRZLpYipC6BmVpeem" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="497a8803-3fa7-4646-b1d7-44fa90d51ddb" name="Default Changelist" comment="" />
+      <created>1610352009929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610352009929</updated>
+      <workItem from="1610352012868" duration="144000" />
+      <workItem from="1610352183396" duration="268000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="400" y="3" key="CommitChangelistDialog2" timestamp="1610352578416">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="400" y="3" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610352578416" />
+    <state x="580" y="152" key="FileChooserDialogImpl" timestamp="1610352233480">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="152" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610352233480" />
+    <state x="630" y="133" key="RollbackChangesDialog" timestamp="1610352473659">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="630" y="133" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1610352473659" />
+    <state x="392" y="144" key="Vcs.Push.Dialog.v2" timestamp="1610352572313">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="144" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610352572313" />
+    <state x="480" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1610352183578">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="235" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610352183578" />
+  </component>
+</project>
