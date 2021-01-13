@@ -13,13 +13,10 @@ public class IFlightServiceImpl implements IFlightService {
 
 
     @Override
-    public void insertFlight(Flight flight) {
-        IFlight iFlight=new FlightImpl();
-        try {
-            iFlight.insertFlight(flight);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+    public void insertFlight(Flight flight) throws SQLException {
+        IFlight iFlight = new FlightImpl();
+        iFlight.insertFlight(flight);
+
     }
 
     @Override

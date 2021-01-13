@@ -7,7 +7,7 @@ public class Flight {
     private String planeType;//飞机类型
     private String departrueAirport;//出发的机场
     private String destinationAirport;//到达的机场
-    private String  departrueTime;//出发时间
+    private String departrueTime;//出发时间
 
     public Flight(String frightId, int currentSeats, String planeType, String departrueAirport, String destinationAirport, String departrueTime) {
         this.frightId = frightId;
