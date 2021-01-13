@@ -1,3 +1,5 @@
+package cn.edu.hcnu.dto;
+
 import java.util.Date;
 
 public class Customer {

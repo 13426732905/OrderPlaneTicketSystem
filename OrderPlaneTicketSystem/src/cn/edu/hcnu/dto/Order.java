@@ -1,16 +1,40 @@
+package cn.edu.hcnu.dto;
+import java.util.Set;
+
 public class Order {
-    //    成人	退改 ¥30 起	¥300X1
-//    机场税	¥50X1
-//    燃油费	免费
-//    	¥30 X0
-//    机票退改险	¥30 X0
-//            优惠券
-    private float cost;//乘客消费
+    private float cost;//机票价格
     private float airportTax;//机场税
     private float fuelCost;//燃料费
     private float aviationInsurance;//航空保险
     private float ticketRefundInsurance;//机票退改险
     private float coupon;//优惠券
+    private float TotalPriceTax;//含税总价
+    private Set<Customer> customers;
+    private Flight flight;
+
+    public float getTotalPriceTax() {
+        return TotalPriceTax;
+    }
+
+    public void setTotalPriceTax(float totalPriceTax) {
+        TotalPriceTax = totalPriceTax;
+    }
+
+    public Set<Customer> getCustomers() {
+        return customers;
+    }
+
+    public void setCustomers(Set<Customer> customers) {
+        this.customers = customers;
+    }
+
+    public Flight getFlight() {
+        return flight;
+    }
+
+    public void setFlight(Flight flight) {
+        this.flight = flight;
+    }
 
     public float getCost() {
         return cost;
