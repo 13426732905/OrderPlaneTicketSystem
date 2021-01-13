@@ -3,10 +3,8 @@ package cn.edu.hcnu.dao.Impl;
 import cn.edu.hcnu.dao.IFlight;
 import cn.edu.hcnu.dto.Flight;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.HashSet;
 import java.util.Set;
 
 public class FlightImpl implements IFlight {
@@ -37,8 +35,31 @@ public class FlightImpl implements IFlight {
     }
 
     @Override
-    public Set<Flight> getAllFlight() {
-        return null;
+    public Set<Flight> getAllFlight() throws SQLException {
+        Connection con;
+        PreparedStatement ps;
+        ResultSet rs;
+        String url = "jdbc:oracle:thin:@localhost:1521:ORCL";
+        String user = "opts";
+        String password = "opts1234";
+        Set<Flight> allFlight = new HashSet<Flight>();
+        String sql = "select * from flight";
+        con = DriverManager.getConnection(url, user, password);
+        ps = con.prepareStatement(sql);
+        rs = ps.executeQuery();
+        while (rs.next()) {
+            String id = rs.getString("id");
+            String frightId = rs.getString("frightId");
+            int currentSeats = rs.getInt("currentSeats");
+            String planeType = rs.getString("planeType");
+            String departrueAirport = rs.getString("departrueAirport");
+            String destinationAirport = rs.getString("destinationAirport");
+            String departrueTime = rs.getString("departrueTime");
+            Flight flight = new Flight(frightId, currentSeats, planeType,
+                    departrueAirport, destinationAirport, departrueTime);
+            allFlight.add(flight);
+        }
+      return  allFlight;
     }
 
     @Override
