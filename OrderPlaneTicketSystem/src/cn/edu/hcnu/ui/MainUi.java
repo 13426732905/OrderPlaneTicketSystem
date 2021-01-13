@@ -17,8 +17,6 @@ public class MainUi {
             System.out.println("按4，机票预定");
             System.out.println("按5，机票退订");
             System.out.println("按6，退出系统");
-
-
             int choice=scanner.nextInt();
             String UUid= UUID.randomUUID().toString();
             String id=UUid.replace("-","");
