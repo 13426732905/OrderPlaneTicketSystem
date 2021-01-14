@@ -44,6 +44,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -167,10 +168,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="424" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1610521706901" />
-    <state x="352" y="6" key="CommitChangelistDialog2" timestamp="1610596583897">
+    <state x="352" y="0" key="CommitChangelistDialog2" timestamp="1610613123007">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="352" y="6" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610596583897" />
+    <state x="352" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610613123007" />
     <state x="194" y="174" key="FileChooserDialogImpl" timestamp="1610607835991">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -215,10 +216,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="260" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610613114987" />
-    <state x="352" y="165" key="Vcs.Push.Dialog.v2" timestamp="1610596603179">
+    <state x="352" y="165" key="Vcs.Push.Dialog.v2" timestamp="1610613134251">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="352" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610596603179" />
+    <state x="352" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610613134251" />
     <state x="440" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1610588095864">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
