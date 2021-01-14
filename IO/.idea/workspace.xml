@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fddce93-8e0b-4726-b1c6-24a3b056ef58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OrderPlaneTicketSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderPlaneTicketSystem/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +43,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Stream">
     <configuration name="IO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IO" />
       <module name="IO" />
@@ -55,8 +51,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream" />
+      <module name="IO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stream" />
         <item itemvalue="Application.IO" />
       </list>
     </recent_temporary>
@@ -83,30 +87,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610607852837</updated>
-      <workItem from="1610607855571" duration="1505000" />
+      <workItem from="1610607855571" duration="5227000" />
     </task>
+    <task id="LOCAL-00001" summary="io流">
+      <created>1610609395321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610609395321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="io流" />
+    <option name="LAST_COMMIT_MESSAGE" value="io流" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1340" height="213" key="GridCell.Tab.0.bottom" timestamp="1610609193681">
+    <state x="595" y="330" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1610612377243">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="213" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610609193681" />
-    <state width="1340" height="213" key="GridCell.Tab.0.center" timestamp="1610609193681">
+    <state x="595" y="330" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1610612377243" />
+    <state x="452" y="29" key="CommitChangelistDialog2" timestamp="1610609394039">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="213" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610609193681" />
-    <state width="1340" height="213" key="GridCell.Tab.0.left" timestamp="1610609193681">
+    <state x="452" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610609394039" />
+    <state width="1340" height="213" key="GridCell.Tab.0.bottom" timestamp="1610612400652">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="213" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610609193681" />
-    <state width="1340" height="213" key="GridCell.Tab.0.right" timestamp="1610609193681">
+    <state width="1340" height="213" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610612400652" />
+    <state width="1340" height="213" key="GridCell.Tab.0.center" timestamp="1610612400652">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="213" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610609193681" />
+    <state width="1340" height="213" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610612400652" />
+    <state width="1340" height="213" key="GridCell.Tab.0.left" timestamp="1610612400652">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="213" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610612400652" />
+    <state width="1340" height="213" key="GridCell.Tab.0.right" timestamp="1610612400652">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="213" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610612400652" />
     <state x="353" y="81" key="SettingsEditor" timestamp="1610608136147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

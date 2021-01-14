@@ -3,11 +3,14 @@ import java.io.*;
 public class IO {
     public static void main(String[] args) {
         FileReader fileReader = null;
+        FileWriter fileWriter=null;
+        BufferedReader bufferedReader=null;
+        BufferedWriter bufferedWriter=null;
         try {
             fileReader = new FileReader("E:\\io.txt");//读取文件
-            FileWriter fileWriter=new FileWriter("E:\\ioInput.txt");//写入文件
-            BufferedReader bufferedReader=new BufferedReader(fileReader);
-            BufferedWriter bufferedWriter=new BufferedWriter(fileWriter);
+             fileWriter=new FileWriter("E:\\ioInput.txt");//写入文件
+             bufferedReader=new BufferedReader(fileReader);
+             bufferedWriter=new BufferedWriter(fileWriter);
             String line="";
             while ( (line=bufferedReader.readLine())!=null){
 //                System.out.println(line);
@@ -20,6 +23,16 @@ public class IO {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        }finally {
+            try {
+                fileReader.close();
+                bufferedReader.close();
+                fileWriter.close();
+                bufferedWriter.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
         }
 
     }

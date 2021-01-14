@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923dcb63-3e48-4ec8-a5a3-ca88bcb38228" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../IO/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IO/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IO/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IO/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IO/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IO/IO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IO/src/IO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IO/src/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IO/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO/src/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IO/src/IO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +52,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -112,7 +108,7 @@
       <workItem from="1610506613319" duration="1012000" />
       <workItem from="1610509958982" duration="126000" />
       <workItem from="1610519858444" duration="9567000" />
-      <workItem from="1610588091608" duration="7698000" />
+      <workItem from="1610588091608" duration="8316000" />
     </task>
     <task id="LOCAL-00001" summary="oracle数据库连接">
       <created>1610510011291</created>
@@ -215,10 +211,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="265" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1610606139952" />
-    <state x="260" y="8" key="SettingsEditor" timestamp="1610521551267">
+    <state x="260" y="8" key="SettingsEditor" timestamp="1610613114987">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="260" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610521551267" />
+    <state x="260" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610613114987" />
     <state x="352" y="165" key="Vcs.Push.Dialog.v2" timestamp="1610596603179">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
