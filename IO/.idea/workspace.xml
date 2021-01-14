@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fddce93-8e0b-4726-b1c6-24a3b056ef58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Merge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OrderPlaneTicketSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderPlaneTicketSystem/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +42,16 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Stream">
+  <component name="RunManager" selected="Application.Merge">
     <configuration name="IO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IO" />
+      <module name="IO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Merge" />
       <module name="IO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Merge" />
         <item itemvalue="Application.Stream" />
         <item itemvalue="Application.IO" />
       </list>
@@ -87,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610607852837</updated>
-      <workItem from="1610607855571" duration="5227000" />
+      <workItem from="1610607855571" duration="9388000" />
     </task>
     <task id="LOCAL-00001" summary="io流">
       <created>1610609395321</created>
@@ -96,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610609395321</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="io流">
+      <created>1610613168589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610613168589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,29 +125,33 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="595" y="330" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1610612377243" />
-    <state x="452" y="29" key="CommitChangelistDialog2" timestamp="1610609394039">
+    <state x="452" y="29" key="CommitChangelistDialog2" timestamp="1610613167617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="452" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610609394039" />
-    <state width="1340" height="213" key="GridCell.Tab.0.bottom" timestamp="1610612400652">
+    <state x="452" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610613167617" />
+    <state width="1340" height="213" key="GridCell.Tab.0.bottom" timestamp="1610617288763">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="213" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610612400652" />
-    <state width="1340" height="213" key="GridCell.Tab.0.center" timestamp="1610612400652">
+    <state width="1340" height="213" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610617288763" />
+    <state width="1340" height="213" key="GridCell.Tab.0.center" timestamp="1610617288763">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="213" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610612400652" />
-    <state width="1340" height="213" key="GridCell.Tab.0.left" timestamp="1610612400652">
+    <state width="1340" height="213" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610617288763" />
+    <state width="1340" height="213" key="GridCell.Tab.0.left" timestamp="1610617288763">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="213" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610612400652" />
-    <state width="1340" height="213" key="GridCell.Tab.0.right" timestamp="1610612400652">
+    <state width="1340" height="213" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610617288763" />
+    <state width="1340" height="213" key="GridCell.Tab.0.right" timestamp="1610617288763">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="213" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610612400652" />
+    <state width="1340" height="213" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610617288763" />
     <state x="353" y="81" key="SettingsEditor" timestamp="1610608136147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="353" y="81" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610608136147" />
+    <state x="444" y="172" key="Vcs.Push.Dialog.v2" timestamp="1610613177188">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="444" y="172" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610613177188" />
   </component>
 </project>
