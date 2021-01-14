@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="923dcb63-3e48-4ec8-a5a3-ca88bcb38228" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/Impl/IFlightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/Impl/IFlightServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/Impl/FlightImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/Impl/FlightImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUi.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\qin\OrderPlaneTicketSystem\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mzq9AyR8zF2UY8mw857I2aMirA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\qin\OrderPlaneTicketSystem\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\qin\OrderPlaneTicketSystem\sql" />
+      <recent name="F:\qin\OrderPlaneTicketSystem\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainUi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.hcnu.ui.MainUi" />
+      <module name="OrderPlaneTicketSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.hcnu.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainUi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="923dcb63-3e48-4ec8-a5a3-ca88bcb38228" name="Default Changelist" comment="" />
+      <created>1610506612049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610506612049</updated>
+      <workItem from="1610506613319" duration="1012000" />
+      <workItem from="1610509958982" duration="126000" />
+      <workItem from="1610519858444" duration="9567000" />
+      <workItem from="1610588091608" duration="5230000" />
+    </task>
+    <task id="LOCAL-00001" summary="oracle数据库连接">
+      <created>1610510011291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610510011291</updated>
+    </task>
+    <task id="LOCAL-00002" summary="oracle数据库连接">
+      <created>1610520261059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610520261059</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加jar包&#10;添加crebas.sql&#10;处理异常问题（从dao抛出到bll,bll抛出到ui,ui对异常进行处理）">
+      <created>1610521839560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610521839560</updated>
+    </task>
+    <task id="LOCAL-00004" summary="信息查询">
+      <created>1610532594120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610532594120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="oracle数据库连接" />
+    <MESSAGE value="添加jar包&#10;添加crebas.sql&#10;处理异常问题（从dao抛出到bll,bll抛出到ui,ui对异常进行处理）" />
+    <MESSAGE value="信息查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="信息查询" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="713" y="176" key="#Project_Structure" timestamp="1610506642193">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="713" y="176" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1610506642193" />
+    <state x="424" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610521706901">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="424" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1610521706901" />
+    <state x="352" y="6" key="CommitChangelistDialog2" timestamp="1610532592436">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="352" y="6" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610532592436" />
+    <state x="194" y="174" key="FileChooserDialogImpl" timestamp="1610521549223">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="194" y="174" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610521549223" />
+    <state x="587" y="323" key="Github.ShareDialog" timestamp="1610521444450">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="587" y="323" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1610521444450" />
+    <state width="1340" height="265" key="GridCell.Tab.0.bottom" timestamp="1610592998271">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610592998271" />
+    <state width="1340" height="265" key="GridCell.Tab.0.center" timestamp="1610592998271">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610592998271" />
+    <state width="1340" height="265" key="GridCell.Tab.0.left" timestamp="1610592998271">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610592998271" />
+    <state width="1340" height="265" key="GridCell.Tab.0.right" timestamp="1610592998271">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610592998271" />
+    <state width="1340" height="265" key="GridCell.Tab.1.bottom" timestamp="1610593007383">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610593007383" />
+    <state width="1340" height="265" key="GridCell.Tab.1.center" timestamp="1610593007383">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1610593007383" />
+    <state width="1340" height="265" key="GridCell.Tab.1.left" timestamp="1610593007383">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1610593007383" />
+    <state width="1340" height="265" key="GridCell.Tab.1.right" timestamp="1610593007383">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="265" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1610593007383" />
+    <state x="260" y="8" key="SettingsEditor" timestamp="1610521551267">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="260" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610521551267" />
+    <state x="352" y="165" key="Vcs.Push.Dialog.v2" timestamp="1610532636994">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="352" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610532636994" />
+    <state x="440" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1610588095864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="440" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610588095864" />
+    <state x="543" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1610590693669">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="543" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1610590693669" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/edu/hcnu/dao/Impl/FlightImpl.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

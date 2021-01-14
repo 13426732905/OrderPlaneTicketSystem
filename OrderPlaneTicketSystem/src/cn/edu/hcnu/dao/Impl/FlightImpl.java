@@ -29,9 +29,6 @@ public class FlightImpl implements IFlight {
             ps.setString(6,flight.getDestinationAirport());
             ps.setString(7,flight.getDepartrueTime());
             ps.executeUpdate();
-
-
-
     }
 
     @Override
@@ -43,18 +40,17 @@ public class FlightImpl implements IFlight {
         String user = "opts";
         String password = "opts1234";
         Set<Flight> allFlight = new HashSet<Flight>();
-        String sql = "select * from flight";
+        String sql = "select FLIGHT_ID,PLANE_TYPE,TOTAL_SEATS_NUM,DEPARTURE_AIRPORT,DESTINATION_AIRPORT,DEPARTURE_TIME from flight";
         con = DriverManager.getConnection(url, user, password);
         ps = con.prepareStatement(sql);
         rs = ps.executeQuery();
         while (rs.next()) {
-            String id = rs.getString("id");
-            String frightId = rs.getString("frightId");
-            int currentSeats = rs.getInt("currentSeats");
-            String planeType = rs.getString("planeType");
-            String departrueAirport = rs.getString("departrueAirport");
-            String destinationAirport = rs.getString("destinationAirport");
-            String departrueTime = rs.getString("departrueTime");
+            String frightId = rs.getString("FLIGHT_ID");
+            int currentSeats = rs.getInt("TOTAL_SEATS_NUM");
+            String planeType = rs.getString("PLANE_TYPE");
+            String departrueAirport = rs.getString("DEPARTURE_AIRPORT");
+            String destinationAirport = rs.getString("DESTINATION_AIRPORT");
+            String departrueTime = rs.getString("DEPARTURE_TIME");
             Flight flight = new Flight(frightId, currentSeats, planeType,
                     departrueAirport, destinationAirport, departrueTime);
             allFlight.add(flight);
@@ -63,13 +59,59 @@ public class FlightImpl implements IFlight {
     }
 
     @Override
-    public Flight getFlightByDepartrueTime(String departrueTime) {
-        return null;
+    public Flight getFlightByDepartrueTime(String departrueTimes) throws SQLException {
+        Connection con;
+        PreparedStatement ps;
+        ResultSet rs;
+        String url = "jdbc:oracle:thin:@localhost:1521:ORCL";
+        String user = "opts";
+        String password = "opts1234";
+        Set<Flight> allFlight = new HashSet<Flight>();
+        String sql = "select FLIGHT_ID,PLANE_TYPE,TOTAL_SEATS_NUM,DEPARTURE_AIRPORT,DESTINATION_AIRPORT,DEPARTURE_TIME from flight where DEPARTURE_TIME=?";
+        con = DriverManager.getConnection(url, user, password);
+        ps = con.prepareStatement(sql);
+        ps.setString(1,departrueTimes);
+        rs = ps.executeQuery();
+        Flight flight=null;
+        while (rs.next()) {
+            String frightId = rs.getString("FLIGHT_ID");
+            int currentSeats = rs.getInt("TOTAL_SEATS_NUM");
+            String planeType = rs.getString("PLANE_TYPE");
+            String departrueAirport = rs.getString("DEPARTURE_AIRPORT");
+            String destinationAirport = rs.getString("DESTINATION_AIRPORT");
+            String departrueTime = rs.getString("DEPARTURE_TIME");
+             flight = new Flight(frightId, currentSeats, planeType,
+                    departrueAirport, destinationAirport, departrueTime);
+        }
+        return  flight ;
     }
 
     @Override
-    public Flight getFlightByDepartrueAirport(String departrueAirport) {
-        return null;
+    public Flight getFlightByDepartrueAirport(String departrueAirports) throws SQLException {
+        Connection con;
+        PreparedStatement ps;
+        ResultSet rs;
+        String url = "jdbc:oracle:thin:@localhost:1521:ORCL";
+        String user = "opts";
+        String password = "opts1234";
+        Set<Flight> allFlight = new HashSet<Flight>();
+        String sql = "select FLIGHT_ID,PLANE_TYPE,TOTAL_SEATS_NUM,DEPARTURE_AIRPORT,DESTINATION_AIRPORT,DEPARTURE_TIME from flight where DEPARTURE_AIRPORT=?";
+        con = DriverManager.getConnection(url, user, password);
+        ps = con.prepareStatement(sql);
+        ps.setString(1,departrueAirports);
+        rs = ps.executeQuery();
+        Flight flight=null;
+        while (rs.next()) {
+            String frightId = rs.getString("FLIGHT_ID");
+            int currentSeats = rs.getInt("TOTAL_SEATS_NUM");
+            String planeType = rs.getString("PLANE_TYPE");
+            String departrueAirport = rs.getString("DEPARTURE_AIRPORT");
+            String destinationAirport = rs.getString("DESTINATION_AIRPORT");
+            String departrueTimes = rs.getString("DEPARTURE_TIME");
+            flight = new Flight(frightId, currentSeats, planeType,
+                    departrueAirport, destinationAirport, departrueTimes);
+        }
+        return  flight ;
     }
 
     @Override

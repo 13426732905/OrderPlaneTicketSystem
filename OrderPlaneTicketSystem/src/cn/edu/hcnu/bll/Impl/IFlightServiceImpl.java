@@ -25,13 +25,15 @@ public class IFlightServiceImpl implements IFlightService {
     }
 
     @Override
-    public Flight getFlightByDepartrueTime(String departrueTime) {
-        return null;
+    public Flight getFlightByDepartrueTime(String departrueTime) throws SQLException {
+        IFlight iFlight =new FlightImpl();
+        return  iFlight.getFlightByDepartrueTime(departrueTime);
     }
 
     @Override
-    public Flight getFlightByDepartrueAirport(String departrueAirport) {
-        return null;
+    public Flight getFlightByDepartrueAirport(String departrueAirport) throws SQLException {
+      IFlight iFlight =new FlightImpl();
+        return iFlight.getFlightByDepartrueAirport(departrueAirport);
     }
 
     @Override

@@ -78,6 +78,47 @@ public class MainUi {
                 for (Flight flight:allFlights){
                     System.out.println(flight);
                 }
+            }else if(choice==3){
+                System.out.println("输入相应的编号选择您要查询的方式");
+                System.out.println("1，按起飞时间查询");
+                System.out.println("2，按空座时间查询");
+                System.out.println("3，按起飞机场查询");
+                System.out.println("4，按到达机场查询");
+                int choose=scanner.nextInt();
+                if (choose==1){
+                    System.out.println("请输入起飞时间");
+                    String departureTime =scanner.next();
+                    IFlightService iFlightService = new IFlightServiceImpl();
+                    try {
+                        Flight flight=iFlightService.getFlightByDepartrueTime(departureTime);
+                         if (flight!=null){
+                             System.out.println(flight);
+                         }else {
+                             System.out.println("该时间段没有航班");
+                         }
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                }else if(choice==2){
+
+                }else if(choice==3){
+                    System.out.println("请输入起飞机场");
+                    String departrueAirport=scanner.next();
+                    IFlightService iFlightService = new IFlightServiceImpl();
+                    try {
+                        Flight flight=iFlightService.getFlightByDepartrueAirport(departrueAirport);
+                        if (flight!=null){
+                            System.out.println(flight);
+                        }else {
+                            System.out.println("该机场没有航班");
+                        }
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                }else if(choice==4){
+
+                }
+
             }
 
 
