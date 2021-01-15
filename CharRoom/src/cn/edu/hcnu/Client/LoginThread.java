@@ -95,7 +95,8 @@ public class LoginThread extends Thread {
                     if (rs.next()) {
                         String encodePassword = rs.getString("PASSWORD");
                         if (Md5.checkpassword(password, encodePassword)) {
-                            System.out.println("登录成功");
+                           loginf.setVisible(false);
+                           ChatWindow chatWindow=new ChatWindow();
                         } else {
                             System.out.println("登录失败");
                         }
