@@ -6,7 +6,10 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
 import java.net.Socket;
+import java.net.UnknownHostException;
 import java.security.NoSuchAlgorithmException;
 import java.sql.*;
 import javax.swing.JButton;
@@ -46,7 +49,7 @@ public class LoginThread extends Thread {
         t1.setEditable(false);
         loginp.add(t1);
 
-        final JTextField loginname = new JTextField("liwei");
+        final JTextField loginname = new JTextField("zgl");
         loginname.setHorizontalAlignment(JTextField.CENTER);
         loginp.add(loginname);
 
@@ -55,7 +58,7 @@ public class LoginThread extends Thread {
         t2.setEditable(false);
         loginp.add(t2);
 
-        final JTextField loginPassword = new JTextField("lw1234");
+        final JTextField loginPassword = new JTextField("zgl1234");
         loginPassword.setHorizontalAlignment(JTextField.CENTER);
         loginp.add(loginPassword);
         /*
@@ -79,16 +82,15 @@ public class LoginThread extends Thread {
          */
         class ButtonListener implements ActionListener {
             private Socket s;
-
             public void actionPerformed(ActionEvent e) {
                 String username = loginname.getText();
                 String password = loginPassword.getText();
+                String sql = "SELECT password FROM users WHERE username=?";
                 try {
                     String url = "jdbc:oracle:thin:@localhost:1521:orcl";
                     String username_db = "opts";
                     String password_db = "opts1234";
                     Connection conn = DriverManager.getConnection(url, username_db, password_db);
-                    String sql = "SELECT password FROM users WHERE username=?";
                     PreparedStatement pstmt = conn.prepareStatement(sql);
                     pstmt.setString(1,username);
                     ResultSet rs = pstmt.executeQuery();
@@ -96,16 +98,46 @@ public class LoginThread extends Thread {
                         String encodePassword = rs.getString("PASSWORD");
                         if (Md5.checkpassword(password, encodePassword)) {
                            loginf.setVisible(false);
-                           ChatWindow chatWindow=new ChatWindow();
+//                            ChatWindow chatWindow=new ChatWindow();
+                           //获取ip地址
+                            InetAddress inetAddress = InetAddress.getLocalHost();
+                            String IP=inetAddress.getHostAddress();
+                            int port=8888;
+                            DatagramSocket datagramSocket=null;
+                            while (true){
+                                try{
+                                    datagramSocket=new DatagramSocket(8888);
+                                    ChatWindow chatWindow=new ChatWindow(username,datagramSocket);
+                                   break;
+                                }
+                                catch(IOException e1){
+                                    port +=1;
+                                     e1.printStackTrace();
+                                }
+                            }
+                            String  UpSql="update users set ip=?,port=? where username=? ";
+                            PreparedStatement ps = conn.prepareStatement(UpSql);
+                            ps.setString(1,IP);
+                            ps.setInt(2,port);
+                            ps.setString(3,username);
+                            int result = ps.executeUpdate();
+                            if(result>0){
+
+                            }else {
+                                System.out.println("更新失败");
+                            }
                         } else {
                             System.out.println("登录失败");
                         }
+
                     }
                 } catch (SQLException ee) {
                     ee.printStackTrace();
                 } catch (NoSuchAlgorithmException ex) {
                     ex.printStackTrace();
                 } catch (UnsupportedEncodingException ex) {
+                    ex.printStackTrace();
+                } catch (UnknownHostException ex) {
                     ex.printStackTrace();
                 }
 				/*

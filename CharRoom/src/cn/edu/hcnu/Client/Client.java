@@ -5,6 +5,5 @@ public class Client {
         Thread thread=new LoginThread();
         thread.start();
 
-
     }
 }

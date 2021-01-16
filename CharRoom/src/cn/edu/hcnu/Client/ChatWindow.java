@@ -2,6 +2,12 @@ package cn.edu.hcnu.Client;
 
 
 import java.awt.BorderLayout;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.sql.*;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -22,7 +28,7 @@ public class ChatWindow {
     private JTextField tf;
     private static int total;// 在线人数统计
 
-    public ChatWindow() {
+    public ChatWindow(String name, DatagramSocket  datagramSocket) {
         /*
          * 设置聊天室窗口界面
          */
@@ -47,5 +53,46 @@ public class ChatWindow {
         f.getContentPane().add(p, BorderLayout.SOUTH);
         f.getContentPane().add(sp);
         f.setVisible(true);
+        showXXXIntoChatRoom();
+
     }
+    public void showXXXIntoChatRoom() {
+        String url = "jdbc:oracle:thin:@localhost:1521:orclhc";
+        String username_db = "opts";
+        String password_db = "opts1234";
+        PreparedStatement pstmt = null;
+        Connection conn = null;
+        try {
+            conn = DriverManager.getConnection(url, username_db, password_db);
+            String sql = "SELECT username,ip,port FROM users WHERE status='online' AND username!=?";
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setString(1,name);
+            ResultSet rs = pstmt.executeQuery();
+            while (rs.next()) {
+                String username=rs.getString("USERNAME");
+                String ip = rs.getString("IP");
+                int port = rs.getInt("PORT");
+                System.out.println(ip);
+                System.out.println(port);
+                byte[] ipB = new byte[4];
+
+                String ips[] = ip.split("\\.");
+                for (int i = 0; i < ips.length; i++) {
+                    ipB[i] = (byte)Integer.parseInt(ips[i]);
+                }
+                String message = username+"进入了聊天室";
+                byte[] m = message.getBytes();
+                DatagramPacket dp = new DatagramPacket(m, m.length);
+                dp.setAddress(InetAddress.getByAddress(ipB));
+                dp.setPort(port);
+                DatagramSocket ds = new DatagramSocket();
+                ds.send(dp);//投递
+            }
+        } catch (SQLException  e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
